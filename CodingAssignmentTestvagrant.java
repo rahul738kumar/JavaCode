@@ -65,7 +65,7 @@ public class Main {
 
         List<String> songsUser1 = store.getRecentlyPlayedSongs("user1");
         List<String> songsUser2 = store.getRecentlyPlayedSongs("user2");
-        List<String> songsUser3 = store.getRecentlyPlayedSongs("user2");
+        List<String> songsUser3 = store.getRecentlyPlayedSongs("user3");
         System.out.println("User1 recently played songs: " + songsUser1);
         System.out.println("User1 recently played songs: " + songsUser2);
         System.out.println("User1 recently played songs: " + songsUser3);
